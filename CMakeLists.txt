@@ -12,4 +12,5 @@ aux_source_directory(src LIB_SRC_FILES)
 
 # Create the app module
 add_cfe_app(libnmea ${LIB_SRC_FILES})
+target_link_libraries(libnmea m)
 
